@@ -46,10 +46,6 @@
             "type": "Microsoft.Web/sites",
             "kind": "functionapp",
             "location": "[resourceGroup().location]",
-            "tags": {
-                "Owner": "[parameters('OwnerName')]",
-                "ExpireOn": "[parameters('ExpireOn')]"
-            },
             "dependsOn": [
                 "[concat('Microsoft.Web/serverfarms/', variables('funcHhostingPlanName'))]",
                 "[concat('Microsoft.Storage/storageAccounts/',variables('funcStorageAccountName'))]",
@@ -132,10 +128,6 @@
             "type": "Microsoft.Web/serverfarms",
             "location": "[resourceGroup().location]",
             "kind": "functionapp",
-            "tags": {
-                "Owner": "[parameters('OwnerName')]",
-                "ExpireOn": "[parameters('ExpireOn')]"
-            },
             "properties": {
                 "perSiteScaling": false,
                 "maximumElasticWorkerCount": 1,
@@ -173,9 +165,7 @@
             "apiVersion": "2019-06-01",
             "location": "[resourceGroup().location]",
             "tags": {
-                "displayName": "[variables('UrlsStorageAccountName')]",
-                "Owner": "[parameters('OwnerName')]",
-                "ExpireOn": "[parameters('ExpireOn')]"
+                "displayName": "[variables('UrlsStorageAccountName')]"
             },
             "sku": {
                 "name": "Standard_LRS",
