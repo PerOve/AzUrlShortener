@@ -21,7 +21,8 @@ To deploy YOUR version of **Azure Url Shortener** you could fork this repo, but 
 
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/?WT.mc_id=urlshortener-github-perove#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FPerOve%2FAzUrlShortener%2Fmaster%2Fdeployment%2FazureDeploy.json)
 
-Deploy non Webfrontend and with FreeTier Host Plan:
+#### NB! Deploy non Webfrontend and with FreeTier Host Plan
+
 [![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/?WT.mc_id=urlshortener-github-perove#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FPerOve%2FAzUrlShortener%2Fmaster%2Fdeployment%2FazureDeploy-FreeTier.json)
 
 To have all details and alternative deployment refer to the [Deployment Details](azFunctions-deployment.md) page.
