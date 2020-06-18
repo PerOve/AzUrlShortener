@@ -5,14 +5,14 @@
         "baseName": {
             "value": "AzUrlShortener"
         },
-        "OwnerName": {
-            "value": "PerOve"
-        },
         "GitHubBranch": {
             "value": "master"
         },
         "defaultRedirectUrl": {
             "value": "https://azure.com"
+        },
+        "GitHubUrl":{
+            "value": "https://github.com/PerOve/AzUrlShortener.git"
         }
     }
 }
