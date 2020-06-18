@@ -141,6 +141,7 @@
         {
             "apiVersion": "2019-06-01",
             "type": "Microsoft.Storage/storageAccounts",
+            "kind":"Storage",
             "name": "[variables('funcStorageAccountName')]",
             "location": "[resourceGroup().location]",
             "sku": {
@@ -154,6 +155,7 @@
         {
             "name": "[variables('UrlsStorageAccountName')]",
             "type": "Microsoft.Storage/storageAccounts",
+            "kind":"Storage",
             "apiVersion": "2019-06-01",
             "location": "[resourceGroup().location]",
             "tags": {
